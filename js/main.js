@@ -15,7 +15,7 @@ function Converter(vstup){
    
 }
 
-button.addEventListener('click', function(){
+button.addEventListener('input', function(){
    
     result.innerText = Converter(number.value);
     
