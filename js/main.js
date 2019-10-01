@@ -14,7 +14,7 @@ function Converter(currency, input) {
     switch (currency) {
 
         case "USD":
-        
+
             usd = 23.61777;
             return (input / usd).toFixed(2);
         case "EUR":
