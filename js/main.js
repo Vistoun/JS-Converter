@@ -31,5 +31,4 @@ number.addEventListener('input', function () {
 
     result.innerHTML = Converter(currency.value, number.value);
 
-
 })
