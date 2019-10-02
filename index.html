@@ -23,17 +23,21 @@
                 <div class="form-group row">
                     <label for="number" class="col-sm-3 col-form-label">Zadej číslo</label>
                     <div class="col-sm-3-12">
-                        <input type="text" class="form-control" id="number" value="" placeholder="">
+                        <input type="text" class="form-control" id="number" pattern="Kč" placeholder="CZK">
                     </div>
+                    <div class="col-sm-3-12" >
+                        <input type="text" class="form-control" id="result">
+                    </div>
+                  
                     <div class="col-sm-3">
-                    <select name="currency" class="custom-select col-md-4" id="converter">
+                        <select name="currency" class="custom-select col-md-4" id="converter">
                             <option selected value="EUR">EUR</option>
-                            <option value="USD" >USD</option>
-                            <option value="PLN" >PLN</option>
-                          </select>
-                        </div>
-                    <div class="col-sm-2" id="result">0</div>
+                            <option value="USD">USD</option>
+                            <option value="PLN">PLN</option>
+                        </select>
+                    </div>
                 </div>
+                
             </form>
         </div>
     </main>
@@ -54,8 +58,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-      
-        <script src="js/main.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
