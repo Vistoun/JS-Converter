@@ -8,12 +8,15 @@ let currency = document.getElementById('converter');
    1 EUR = 25.840273 CZK, 
    1 PLN = 5.89558584 CZK, 
 */
+
+
 function Converter(currency, input) {
 
     if (isNaN(input)) {
         number.value = null;
         alert('Nazadal jsi cislo');
     }
+
     switch (currency) {
 
         case 'USD':
