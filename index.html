@@ -21,16 +21,20 @@
         <div class="container">
             <form>
                 <div class="form-group row">
-                    <label for="number" class="col-sm-3 col-form-label">Zadej číslo</label>
-                    <div class="col-sm-3-12">
-                        <input type="text" class="form-control" id="number" pattern="Kč" placeholder="CZK">
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="number"  placeholder="CZK">
                     </div>
-                    <div class="col-sm-3-12" >
-                        <input type="text" class="form-control" id="result">
+                    <div class="col-sm-3">
+                    <select name="currency" class="custom-select col-md-4">
+                        <option selected>CZK</option>
+                    </select>
+                </div>
+                    <div class="col-sm-3" >
+                        <input type="text" value="" class="form-control" id="result" placeholder="EUR">
                     </div>
                   
                     <div class="col-sm-3">
-                        <select name="currency" class="custom-select col-md-4" id="converter">
+                        <select name="currency" class="custom-select col-md-4" id="converter" >
                             <option selected value="EUR">EUR</option>
                             <option value="USD">USD</option>
                             <option value="PLN">PLN</option>
